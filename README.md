@@ -1,8 +1,10 @@
 # UMHACK-2025-KITA-KOD 
 Backtesting Framework for ML-Based Trading Strategies
 
-
-This is the framework of backtesting for ML-Based Trading Strategies
+# Submission Links
+1. 📑 Slides:
+2. 🧠 Conceptual Diagram:
+3. 📄 ML Models Documentation:
 
 # Structure
 1. BackTestingFramework.py - Main controller for the backtesting flow and integration of modules.
@@ -20,5 +22,3 @@ This is the framework of backtesting for ML-Based Trading Strategies
 # Models used
 
 # Strategy Used
-
-
