@@ -5,6 +5,7 @@ Backtesting Framework for ML-Based Trading Strategies
 1. 📑 Slides:https://www.canva.com/design/DAGkUfj3Yw0/SB7BSWSi5vAGn0HSwpfThg/edit?utm_content=DAGkUfj3Yw0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 2. 🧠 Conceptual Diagram:https://www.canva.com/design/DAGkJ2hMQas/fl--qbGH--A1sOBDWlzLbQ/edit?utm_content=DAGkJ2hMQas&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 3. 📄 ML Models Documentation:
+4. 📈 Class Diagram:
 
 # Structure
 1. BackTestingFramework.py - Main controller for the backtesting flow and integration of modules.
