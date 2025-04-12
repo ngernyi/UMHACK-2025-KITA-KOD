@@ -3,7 +3,7 @@ Backtesting Framework for ML-Based Trading Strategies
 
 # Submission Links
 1. 📑 Slides:
-2. 🧠 Conceptual Diagram:
+2. 🧠 Conceptual Diagram:https://www.canva.com/design/DAGkJ2hMQas/fl--qbGH--A1sOBDWlzLbQ/edit?utm_content=DAGkJ2hMQas&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 3. 📄 ML Models Documentation:
 
 # Structure
