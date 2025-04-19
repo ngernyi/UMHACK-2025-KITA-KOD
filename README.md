@@ -1,4 +1,4 @@
-# BackTesting Framework Using HMMGMM
+# BackTesting Framework Using Machine Learning Models
 This is a backtesting framework that utilises Market data, sentiment and whale address to predict the signal using machine learning models 
 
 ## Machine Learning Models Used
