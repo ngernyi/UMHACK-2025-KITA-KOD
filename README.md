@@ -27,26 +27,26 @@ pip install -r requirements.txt
 2. **Fetch data from API **
    - Define API URLs
    - Fetch market data
-   - combine all fetched data into a csv file
+   - Combine all fetched data into a csv file
 3. **Data Preprocessing**
-   - check missing values
-   - update the dataset
+   - Check missing values
+   - Update the dataset
 4. **Sentiment Data**
-   - extract submissions, upvotes, comments and all relevant information from reddit (filter with subreddit)
-   - extract news from CoinDesk
+   - Extract submissions, upvotes, comments and all relevant information from reddit (filter with subreddit)
+   - Extract news from CoinDesk
    - FinBERT model to get the sentiment scores
    - Use Buzz Factor to calculate the influence of the news and reddit submissions
 5. **BackTest**
    - A backtester that can return the sharpe ratio, maximum drawdown, trade frequency and result of backtest
 6. **HMM-GMM Model**
-   - include features to fine tune and find the best parameter
-   - map the hidden regime to signal
-   - use backtester class to evaluate the performance of each of the combinations of features
+   - Include features to fine tune and find the best parameter
+   - Map the hidden regime to signal
+   - Use backtester class to evaluate the performance of each of the combinations of features
 7. **Reinforcement Learning**
    - Use combination of step return, sharpe ratio, maximum markdown, and trade frequency as rewards
-   -  Train the agent repeatedly with the train dataset
+   - Train the agent repeatedly with the train dataset
 8. **Predict Signal with Sentiment Data Using XGBoost**
-   - Includes the buzz factor, whale scoring, and market regimes into a single engineered score
+   - Include the buzz factor, whale scoring, and market regimes into a single engineered score
    - The strategy is evaluated using Sharpe Ratio, Cumulative Return and Max Markdown
      
 # How To Run
