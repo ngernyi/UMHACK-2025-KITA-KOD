@@ -73,7 +73,7 @@ Open and execute `KITA_KOD_UMH2025_FullCode.ipynb` in Jupyter Notebook.
 ![image](https://github.com/user-attachments/assets/9fa9c9a0-cfd1-44f7-9154-1340be36a313)
 
 
-2. Sharpe Ratio, Maximum Markdown and Trade Frequency
+2. Sharpe Ratio, Maximum Drawdown and Trade Frequency
    
 ![WhatsApp Image 2025-04-20 at 07 53 55_4a3b9dde](https://github.com/user-attachments/assets/36ec915b-6985-4cea-b38b-79da65020696)
 
