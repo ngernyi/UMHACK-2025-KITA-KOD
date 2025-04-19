@@ -1,6 +1,8 @@
 # BackTesting Framework Using Machine Learning Models
 This is a backtesting framework that utilises Market data, sentiment and whale address to predict the signal using machine learning models 
 
+## Submission
+Slide link: https://www.canva.com/design/DAGk_kM3oik/3BBEV4MQxRzXJJXmZ6FsLA/edit?utm_content=DAGk_kM3oik&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 ## Machine Learning Models Used
 
 1. **FinBERT**
