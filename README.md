@@ -78,7 +78,8 @@ Open and execute `KITA_KOD_UMH2025_FullCode.ipynb` in Jupyter Notebook.
 
 3. Equity Vs Price Graph
    
-![WhatsApp Image 2025-04-20 at 07 54 15_d2e08411](https://github.com/user-attachments/assets/d9f291e8-8fb6-4f22-819d-5fa8f9c0cc30)
+![image](https://github.com/user-attachments/assets/aeb57e8b-ffa3-4d97-ae9a-3ea4202642e4)
+
 
 4. Drawdown over time
 
