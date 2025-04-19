@@ -70,7 +70,8 @@ Open and execute `KITA_KOD_UMH2025_FullCode.ipynb` in Jupyter Notebook.
 # Expected output
 1. A Csv file consists of a list of signal with the result of backtesting
    
-![image](https://github.com/user-attachments/assets/8e88ecd0-d6e6-4a16-9f21-d9418328f222)
+![image](https://github.com/user-attachments/assets/9fa9c9a0-cfd1-44f7-9154-1340be36a313)
+
 
 2. Sharpe Ratio, Maximum Markdown and Trade Frequency
    
