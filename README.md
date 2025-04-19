@@ -67,20 +67,26 @@ Open and execute `KITA_KOD_UMH2025_FullCode.ipynb` in Jupyter Notebook.
 
 # Expected output
 1. A Csv file consists of a list of signal with the result of backtesting
+   
 ![image](https://github.com/user-attachments/assets/8e88ecd0-d6e6-4a16-9f21-d9418328f222)
 
 2. Sharpe Ratio, Maximum Markdown and Trade Frequency
+   
 ![image](https://github.com/user-attachments/assets/d00143a4-556e-4a13-9778-b0d7c5267455)
 
 3. Equity Vs Price Graph
+   
 ![image](https://github.com/user-attachments/assets/3f9acc09-3aca-4ba8-a6a8-9c6ff6869b3c)
 
 4. PnL over time
+   
 ![image](https://github.com/user-attachments/assets/1efc29d0-9f0e-4223-8f02-41eb02e90457)
 
 5. Drawdown over time
+    
 ![image](https://github.com/user-attachments/assets/03273e35-a756-4577-a4aa-7aa383e8d251)
 
-6. Position over time 
+6. Position over time
+    
 ![image](https://github.com/user-attachments/assets/f30d94f3-b658-4002-ab77-9f57b4570cd3)
 
