@@ -24,7 +24,7 @@ pip install -r requirements.txt
 
 # Structure
 1. **Import Libraries**
-2. **Fetch data from API **
+2. **Fetch data from API**
    - Define API URLs
    - Fetch market data
    - Combine all fetched data into a csv file
