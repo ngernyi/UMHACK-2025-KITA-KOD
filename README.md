@@ -1,25 +1,86 @@
-# UMHACK-2025-KITA-KOD 
-Backtesting Framework for ML-Based Trading Strategies
+# BackTesting Framework Using HMMGMM
+This is a backtesting framework that utilises Market data, sentiment and whale address to predict the signal using machine learning models 
 
-# Submission Links
-1. 📑 Slides:https://www.canva.com/design/DAGkUfj3Yw0/SB7BSWSi5vAGn0HSwpfThg/edit?utm_content=DAGkUfj3Yw0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
-2. 🧠 Conceptual Diagram:https://www.canva.com/design/DAGkJ2hMQas/fl--qbGH--A1sOBDWlzLbQ/edit?utm_content=DAGkJ2hMQas&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
-3. 📄 ML Models Documentation: Refer main branch-Details of ML.pdf
-4. 📈 Class Diagram: https://docs.google.com/document/d/1LEJa2LJZdHS210XZQYeUxoOh7vlWVScJd2Xu3shSYYc/edit?usp=sharing
+## Machine Learning Models Used
+
+1. **FinBERT**
+   - Identifies the sentiment of news articles and Reddit posts.
+2. **HMM-GMM**
+   - Detects hidden market regimes and their intensities.
+3. **Reinforcement Learning**
+   - Predicts trading signals based on market regimes and other factors.
+   - Uses a combination of step return, Sharpe Ratio, maximum drawdown, and trade frequency as rewards.
+4. **XGBoost**
+   - Predicts trading signals based on engineered sentiment and behavioral features.
+
+
+## Requirements
+
+Install all required packages with:
+
+```bash
+pip install -r requirements.txt
+```
 
 # Structure
-1. BackTestingFramework.py - Main controller for the backtesting flow and integration of modules.
-2. LoadData.py - Loads and preprocesses multi-source data: on-chain metrics, historical prices, news, forums, and social media.
-3. ModelTraining.py - Trains ML models to predict future price movements based on the preprocessed data.
-4. Strategy.py - Applies algorithmic and dynamic programming approaches to maximize profit based on model predictions.
-5. backtesting.py - Runs the backtest using historical data from the past 3 years to simulate strategy performance.
-6. PerformanceAnalysis.py - Calculates performance metrics such as Sharpe Ratio, Total Return, and Max Drawdown
-7. ResultVisualization.py - Visualizes strategy results and performance metrics in graph form for easy analysis.
+1. **Import Libraries**
+2. **Fetch data from API **
+   - Define API URLs
+   - Fetch market data
+   - combine all fetched data into a csv file
+3. **Data Preprocessing**
+   - check missing values
+   - update the dataset
+4. **Sentiment Data**
+   - extract submissions, upvotes, comments and all relevant information from reddit (filter with subreddit)
+   - extract news from CoinDesk
+   - FinBERT model to get the sentiment scores
+   - Use Buzz Factor to calculate the influence of the news and reddit submissions
+5. **BackTest**
+   - A backtester that can return the sharpe ratio, maximum drawdown, trade frequency and result of backtest
+6. **HMM-GMM Model**
+   - include features to fine tune and find the best parameter
+   - map the hidden regime to signal
+   - use backtester class to evaluate the performance of each of the combinations of features
+7. **Reinforcement Learning**
+   - Use combination of step return, sharpe ratio, maximum markdown, and trade frequency as rewards
+   -  Train the agent repeatedly with the train dataset
+8. **Predict Signal with Sentiment Data Using XGBoost**
+   - Includes the buzz factor, whale scoring, and market regimes into a single engineered score
+   - The strategy is evaluated using Sharpe Ratio, Cumulative Return and Max Markdown
+     
+# How To Run
+1. Clone this repo:
+```bash
+git clone https://github.com/ngernyi/UMHACK-2025-KITA-KOD.git
+```
 
-# How to run 
+2. Install all required packages with:
 
-# Features
+```bash
+pip install -r requirements.txt
+```
 
-# Models used
+3. Run the main file:
 
-# Strategy Used
+Open and execute `KITA_KOD_UMH2025_FullCode.ipynb` in Jupyter Notebook.
+
+# Expected output
+1. A Csv file consists of a list of signal with the result of backtesting
+![image](https://github.com/user-attachments/assets/8e88ecd0-d6e6-4a16-9f21-d9418328f222)
+
+2. Sharpe Ratio, Maximum Markdown and Trade Frequency
+![image](https://github.com/user-attachments/assets/d00143a4-556e-4a13-9778-b0d7c5267455)
+
+3. Equity Vs Price Graph
+![image](https://github.com/user-attachments/assets/3f9acc09-3aca-4ba8-a6a8-9c6ff6869b3c)
+
+4. PnL over time
+![image](https://github.com/user-attachments/assets/1efc29d0-9f0e-4223-8f02-41eb02e90457)
+
+5. Drawdown over time
+![image](https://github.com/user-attachments/assets/03273e35-a756-4577-a4aa-7aa383e8d251)
+
+6. Position over time 
+![image](https://github.com/user-attachments/assets/f30d94f3-b658-4002-ab77-9f57b4570cd3)
+
