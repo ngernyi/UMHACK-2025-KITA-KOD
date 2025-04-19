@@ -74,21 +74,13 @@ Open and execute `KITA_KOD_UMH2025_FullCode.ipynb` in Jupyter Notebook.
 
 2. Sharpe Ratio, Maximum Markdown and Trade Frequency
    
-![image](https://github.com/user-attachments/assets/d00143a4-556e-4a13-9778-b0d7c5267455)
+![WhatsApp Image 2025-04-20 at 07 53 55_4a3b9dde](https://github.com/user-attachments/assets/36ec915b-6985-4cea-b38b-79da65020696)
 
 3. Equity Vs Price Graph
    
-![image](https://github.com/user-attachments/assets/3f9acc09-3aca-4ba8-a6a8-9c6ff6869b3c)
+![WhatsApp Image 2025-04-20 at 07 54 15_d2e08411](https://github.com/user-attachments/assets/d9f291e8-8fb6-4f22-819d-5fa8f9c0cc30)
 
-4. PnL over time
-   
-![image](https://github.com/user-attachments/assets/1efc29d0-9f0e-4223-8f02-41eb02e90457)
+4. Drawdown over time
 
-5. Drawdown over time
-    
-![image](https://github.com/user-attachments/assets/03273e35-a756-4577-a4aa-7aa383e8d251)
-
-6. Position over time
-    
-![image](https://github.com/user-attachments/assets/f30d94f3-b658-4002-ab77-9f57b4570cd3)
+![WhatsApp Image 2025-04-20 at 07 55 25_c888022e](https://github.com/user-attachments/assets/a887bfb3-f8c1-4bee-956c-606a9757a4cc)
 
