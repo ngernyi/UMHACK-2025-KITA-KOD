@@ -1,0 +1,13 @@
+pandas
+numpy
+matplotlib
+seaborn
+torch
+transformers
+scikit-learn
+hmmlearn
+zstandard
+joblib
+tqdm
+requests
+libtorrent
