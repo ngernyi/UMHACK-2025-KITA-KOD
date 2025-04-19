@@ -49,7 +49,7 @@ pip install -r requirements.txt
    - Train the agent repeatedly with the train dataset
 8. **Predict Signal with Sentiment Data Using XGBoost**
    - Include the buzz factor, whale scoring, and market regimes into a single engineered score
-   - The strategy is evaluated using Sharpe Ratio, Cumulative Return and Max Markdown
+   - The strategy is evaluated using Sharpe Ratio, Cumulative Return and Max Drawdown
      
 # How To Run
 1. Clone this repo:
